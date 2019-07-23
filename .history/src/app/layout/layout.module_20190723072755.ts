@@ -9,7 +9,6 @@ import { FooternavbarComponent } from './footernavbar/footernavbar.component';
   imports: [
     CommonModule
   ],
-  declarations: [TopvarbarComponent, AsidenavbarComponent, SettingsnavbarComponent, FooternavbarComponent],
-  exports: [TopvarbarComponent, AsidenavbarComponent, SettingsnavbarComponent, FooternavbarComponent]
+  declarations: [TopvarbarComponent, AsidenavbarComponent, SettingsnavbarComponent, FooternavbarComponent]
 })
 export class LayoutModule { }

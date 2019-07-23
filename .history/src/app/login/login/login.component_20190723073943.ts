@@ -10,7 +10,7 @@ declare var $: any;
 export class LoginComponent implements OnInit {
 
   constructor(
-    private router: Router
+    private router: Router;
   ) { }
 
   ngOnInit() {
@@ -22,10 +22,6 @@ export class LoginComponent implements OnInit {
         increaseArea: '20%' /* optional */
       });
     });
-  }
-
-  login(){
-    this.router.navigate(['Dashboard']);
   }
 
 }

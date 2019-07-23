@@ -6,9 +6,9 @@ import { Component,OnDestroy, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit, OnDestroy {
-
+  
   ngOnDestroy(): void {
-    document.body.className = '';
+    throw new Error("Method not implemented.");
   }
 
   constructor() { }

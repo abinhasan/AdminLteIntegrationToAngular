@@ -25,6 +25,7 @@ export class LoginComponent implements OnInit {
   }
 
   login(){
+    console.log("ted");
     this.router.navigate(['Dashboard']);
   }
 
